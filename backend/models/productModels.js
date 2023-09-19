@@ -17,8 +17,9 @@ const productSchema=mongoose.Schema({
         maxLegnth:[8,["Price cannot exceed from 8 characters"]]
     },
     rating:{
-        type:Number,
-        default:0
+        default:0,
+        type:Number
+        
     },
     images:[
     {
